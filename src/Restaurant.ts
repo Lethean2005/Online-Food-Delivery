@@ -1,4 +1,6 @@
+// src/Restaurant.ts
 import { FoodItem } from "./FoodItem";
+import { Location } from "./Location";
 
 export class Restaurant {
   public menu: FoodItem[] = [];
@@ -6,7 +8,7 @@ export class Restaurant {
   constructor(
     public restaurantId: number,
     public name: string,
-    public location: string
+    public locations: Location[]
   ) {}
 
   addItem(item: FoodItem) {

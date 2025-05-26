@@ -1,4 +1,3 @@
-// src/Location.ts
 export class Location {
   constructor(
     public latitude: number,
